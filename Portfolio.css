@@ -14,8 +14,8 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 80px;
-    background-color: rgb(59, 27, 107);
+    height: 100px;
+    background-color: rgb(52, 7, 52);
 }
 
 nav ul {
@@ -97,7 +97,7 @@ main hr {
 }
 
 .secondSection {
-    height: 80vh;
+    height: 90vh;
     width: 80vw;
 }
 
@@ -127,6 +127,7 @@ main hr {
     position: relative;
     top: 64px;
     width: 150px;
+    color: rgb(255, 255, 255);
 }
 .ver-year{
     position: relative;
@@ -139,4 +140,50 @@ main hr {
     color: gray;
     width: 150px;
     font-size: 9px;
+}
+/* Footer designing =============================== */
+footer{
+    height: 32vh;
+    background-color: rgb(31, 4, 31);
+}
+.footer{
+    display: flex;
+    padding: 30px 30px;
+    justify-content: space-evenly;
+    margin-bottom: 24px;
+}
+.footer ul li{
+   list-style: none;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 0;
+}
+.footer-text-gray{
+    width: 100%;
+    display: flex;
+    color: rgb(233, 227, 227);
+    justify-content: center;
+}
+.btns{
+    width: 340px ;
+    height: 40px;
+    margin: 30px 10px;
+    margin-top: 60px;
+}
+.btns .btn{
+    font-size: 17px;
+    padding: 10px 16px;
+    color: white;
+    background: rgb(52, 7, 52);
+    border-radius: 50px;
+    cursor: pointer;
+    border: 1.2px solid white;
+    margin-right: 13px;
+}
+.btns .btn:hover{
+    font-weight: 20px;
+    background-color: white;
+    color: rgb(52, 7, 52);
 }
