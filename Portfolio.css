@@ -96,10 +96,9 @@ main hr {
     color: gray;
 }
 
-.secondSection .box {
+.secondSection {
     height: 80vh;
     width: 80vw;
-    display: flex;
 }
 
 .secondSection .year-line {
@@ -107,16 +106,37 @@ main hr {
     width: 80vw;
     background-color: white;
     margin: 50px 0px;
+    display: flex;
+    margin: 80px 0px;
 }
 
 .secondSection .ver-line {
     height: 15vh;
     width: 2px;
     background-color: white;
-    margin: -50px 100px;
+    margin: 0px 100px;
 }
-.secondSection .box img{
-    top: -23px;
-    width: 35px;
+.secondSection .ver-line .img-top{
+    width: 30px;
     height: 30px;
+    position: relative;
+    top: -37px;
+    left: -15px;
+}
+.ver-title{
+    position: relative;
+    top: 64px;
+    width: 150px;
+}
+.ver-year{
+    position: relative;
+    top: 70px;
+    width: 130px;
+}
+.ver-decs{
+    position: relative;
+    top: 80px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
 }
